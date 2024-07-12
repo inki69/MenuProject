@@ -1,0 +1,46 @@
+.home{
+    background-image: url('images/home2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+}
+
+
+.recipe-img {
+    overflow: hidden;
+}
+.recipe-box img,
+.recipe-oreder-container img {
+    height: 250px;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+}
+.recipe-box:hover img {
+    transform: scale(1.2);
+}
+
+
+.recipe-oreder-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000000;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.recipeOreder-box {
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+#close-btn {
+    top: 10px;
+    right: 10px;
+}
+
+#close-btn:hover {
+    color: rgb(163, 30, 30);
+}
